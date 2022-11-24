@@ -1,0 +1,256 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+
+    background: #F4F4F4;
+}
+
+.nav-bar {
+    height: 100px;
+    max-width: 1216px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-bar img {
+    width: 72.71px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 33px;
+    margin-top: 0px;
+}
+
+.nav-bar ul li {
+    margin-left: 56px;
+    font-size: 24px;
+
+}
+
+.nav-bar ul li a {
+    color: #3C3939;
+    text-decoration: none;
+}
+
+
+.bg-image {
+    background-image: url(../assets/image-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+}
+
+.bg-image div {
+    background: rgba(141, 27, 61, .7);
+    height: 600px;
+}
+
+.bg-image img {
+    margin: auto;
+    position: relative;
+    top: 60px;
+}
+
+.box-groups {
+    max-width: 1216px;
+    margin: auto;
+
+}
+
+.groups {
+    margin: auto;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.box-groups h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.group-single h3 {
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+
+.group-single {
+    width: 320px;
+    height: 428px;
+    background: #F4F4F4;
+    padding: 32px;
+    box-shadow: 3px 3px 3px rgba(60, 57, 57, 0.2);
+    border-radius: 6px;
+    transition: .4s;
+    margin-top: 20px;
+}
+
+.group-single:hover {
+    transform: scale(1.1);
+}
+
+.group-single span img {
+    height: 45px;
+}
+
+.group-single span {
+    display: flex;
+    width: 380px;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 10px;
+}
+
+.group-single span p {
+    margin-left: 32px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons p {
+    margin-top: 0;
+    font-size: 30px;
+    justify-content: center;
+    display: inline-flex;
+    background-color: #F4F4F4;
+    color: #8D1B3D;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.buttons p:hover {
+    cursor: pointer;
+    background-color: rgba(141, 27, 61, .7);
+    transition: .3s;
+    color: #F4F4F4;
+    transform: scale(1.2);
+}
+
+.section-teams div:nth-child(1) {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.box-teams {
+    background-color: #F4F4F4;
+    height: 100px;
+    max-width: 1216px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-teams+.box-teams {
+    margin-top: 20px;
+}
+
+
+.box-teams div {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.box-teams div:nth-child(1) img {
+    display: flex;
+    justify-content: space-between;
+    width: 107px;
+    margin: 10px 86px 10px 10px;
+}
+
+.box-teams div:nth-child(2) p {
+    word-spacing: 20px;
+    color: #8D1B3D;
+
+    padding-right: 45px;
+}
+
+.box-teams div:nth-child(3) img {
+    width: 107px;
+    margin: 10px 10px 10px 86px;
+}
+
+.view-more {
+    background: #FFF2F6;
+    color: #8D1B3D;
+    font-size: 18px;
+    width: 298px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px auto 100px;
+    transition: .4s;
+}
+
+.view-more:hover {
+    background: #8D1B3D;
+    color: #FFF2F6;
+    transition: .4s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer {
+    background: #8D1B3D;
+    height: 338px;
+}
+
+footer div {
+    max-width: 1216px;
+    margin: auto;
+    color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 74px;
+}
+
+footer div section h4 {
+    font-size: 24px;
+    margin: 0 0 24px;
+}
+
+footer div section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer div section ul li a {
+    color: #F4F4F4;
+    text-decoration: none;
+    display: block;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+footer div section:nth-child(4) {
+    margin: auto 50px auto 0;
+}
